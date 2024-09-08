@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Department Library</title>
+    <link rel="stylesheet" href="lib.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mathematics Department Library</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#catalog"><i class="fas fa-book"></i> Catalog</a></li>
+                    <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+                    <li><a href="#resources"><i class="fas fa-graduation-cap"></i> Resources</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to our Library</h2>
+                <p>Explore our vast collection of mathematical resources.</p>
+                <a href="#catalog" class="btn">Explore Catalog</a>
+            </div>
+        </section>
+
+        <section id="catalog">
+            <div class="container">
+                <h2>Catalog</h2>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search books...">
+                    <button id="searchButton"><i class="fas fa-search"></i></button>
+                </div>
+                <div id="bookList" class="grid"></div>
+                <div id="pagination"></div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-book-reader"></i>
+                        <h3>Book Borrowing</h3>
+                        <p>Borrow books for your research and studies.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>Research Assistance</h3>
+                        <p>Get help from our expert librarians.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-users"></i>
+                        <h3>Study Spaces</h3>
+                        <p>Quiet areas for individual and group study.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources">
+            <div class="container">
+                <h2>Online Resources</h2>
+                <ul class="resource-list">
+                    <li><a href="#"><i class="fas fa-database"></i> Mathematical Databases</a></li>
+                    <li><a href="#"><i class="fas fa-journal-whills"></i> Online Journals</a></li>
+                    <li><a href="#"><i class="fas fa-calculator"></i> Mathematical Software</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Mathematics Department, National Institute of Technology Tiruchirappali, 620015</p>
+                    <p><i class="fas fa-phone"></i> (+91)9534284560</p>
+                    <p><i class="fas fa-envelope"></i> mathlib@nitt.edu</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mathematics Department Library</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lib.js"></script>
+</body>
+</html>
+
+
